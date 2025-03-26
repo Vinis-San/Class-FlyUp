@@ -1,0 +1,111 @@
+body{
+    overflow: auto;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90dvh;
+    align-items: center;
+    justify-content: center;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.container-form{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.card_form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start ;
+    background: #2a2a3b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    color: #717171;
+    font-family: 'Arial', sans-serif;
+    width: auto;
+    max-width: 90%;
+    height: auto;
+    max-height: 90%;
+}
+
+.container_titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1vw;
+}
+
+.form_group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 1em;
+    gap: 0.5vw;
+    width: 100%;
+
+}
+.fourm_grou{
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+.form_group input {
+    width: 95%;
+    padding: 12px 16px;
+    margin: 1px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: inherit;
+    background-color: #1d1f298a;
+    border: 1px solid #414141;
+}
+
+
+.containerbtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0 0 5px 5px;
+}
+
+.containerbtn button {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: inherit;
+    color: #717171;
+    font-weight: 600;
+    width: 80%;
+    background: #1d1f298a;
+    border: 1px solid #414141;
+    padding: 12px 16px;
+    font-size: inherit;
+    gap: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: color 1s;
+}
+
+form button:hover {
+    background-color: #862dda;
+    color: white;
+}

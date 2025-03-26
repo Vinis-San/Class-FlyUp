@@ -4,33 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/arcadia.css">
+    <title>Arcadia: Bem Vindo!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<?php include "assets/components/header.php" ?>
+    <header>
+        <a class="titulo" href="index.php">
+            <h1>FlyUp Class</h1>
+        </a>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="pages/pag_login.php">Login</a></li>
+            <li><a href="pages/ver_licao.php">Lições</a></li>
+        </ul>
+    </header>
     <main>
-        <form action="assets/scripts/login.php" method="post">
-            <!-- Email-->
-            <div class="form-group">
-                <label for="email">Email: </label>
-                <input placeholder="Ex.: Arcadia@email.com" id="email" type="email" name="email" required>
-            </div>
-                        <!-- senha-->
-                        <div class="form-group">
-                <label for="senha">Senha: </label>
-                <input placeholder="Ex.: senha123arcadia" id="senha" type="password" name="senha" required>
-            </div>
-            <button>Entrar</button>
-            <div class="form-group">
-                <p>Sem Cadastro?<a href="assets/pages/cadastrar.php">Cadastre-se</a></p>
-            </div>
-        </form>
+        <h2>Lições e etc...</h2>
     </main>
-
-    <?php include "assets/components/footer.php";
-    ?>
-
+    <footer>All Direitos Reserved! Sousa Media</footer>
 </body>
 
-</html> 
+</html>
